@@ -1,2 +1,2 @@
 #!/bin/bash
-./*.js -type f -delete
+./*.js -type f -exec rm -f {} +
